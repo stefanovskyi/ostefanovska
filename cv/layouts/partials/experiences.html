@@ -1,0 +1,66 @@
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.experiences.icon }}"></i>{{ i18n "experiences" }}</h2>
+
+				{{ range .Site.Params.jobs.list }}
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Business Analyst</h3>
+                            <div class="time">Feb 2018 - Present</div>
+                        </div><!--//upper-row-->
+                        <div class="company">MEV</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <!--<p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>-->
+                        <ul>
+                            <li>Managing requirements (gathering, organizing, analysing, validating and verifying).</li>
+                            <li>Determining and suggesting potential solutions.</li>
+                            <li>Guiding the client, consulting the manager and advising the team.</li>
+                            <li>Assisting at various levels of project and helping in task analysis.</li>
+                            <li>Creating clear, consistent, unambiguous, complete project documentation.</li>
+                            <li>Wireframing, prototyping,UML and BPMN flowcharts building, creating visuals.</li>
+                            <li>Jira & Confluence project spaces management.</li>
+                        </ul>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Product/Project Manager</h3>
+                            <div class="time">Dec 2016 - Jan 2018</div>
+                        </div><!--//upper-row-->
+                        <div class="company">InterLink LLC</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <!--<p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>-->
+                        <ul>
+                            <li>Managing Agile/Scrum/XP development team.</li>
+                            <li>Assigning and controlling tasks on developers, designers, copywriters and QA team. </li>
+                            <li>Arranging and updating daily plans and delivering reports in time.</li>
+                            <li>Managing complex software development projects through the complete project lifecycle (from ideas to release).</li>
+                        </ul>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Digital Marketing Specialist</h3>
+                            <div class="time">Mar 2015 - Dec 2016</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Trinity Ukraine</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <!--<p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>-->
+                        <ul>
+                            <li>Handling market competitors’ research and investigation, market forecasts, analytics and analysis.</li>
+                            <li>Planning and handling email/facebook marketing campaigns.</li>
+                            <li>Assigning tasks and controlling work of designers and copywriters.</li>
+                            <li>Writing video scripts, SEO-oriented website /blog content. </li>
+                        </ul>
+                    </div><!--//details-->
+                </div><!--//item-->
+				{{ end }}
+
+            </section><!--//section-->

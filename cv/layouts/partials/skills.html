@@ -1,0 +1,11 @@
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.skills.icon }}"></i>{{ i18n "skills" }}</h2>
+                <!--<h4 class="level-title">              Professional:</h4>-->
+                <ul class="skillset"  style="list-style-type: circle;">
+				{{ range .Site.Params.skills.list }}
+                    <li>
+                         {{ .skill }}
+                    </li><!--//item-->
+                {{ end }}
+                </ul>
+            </section><!--//skills-section-->
